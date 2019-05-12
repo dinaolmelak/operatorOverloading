@@ -44,6 +44,7 @@
 			children = (
 				C0469033228768A900B7102F /* vector demo */,
 				C0469032228768A900B7102F /* Products */,
+				C0BB7F7E2288D37500FE21F8 /* Readme.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				C0469034228768A900B7102F /* main.cpp */,
-				C0BB7F7E2288D37500FE21F8 /* Readme.md */,
 			);
 			path = "vector demo";
 			sourceTree = "<group>";
