@@ -7,25 +7,25 @@ class person{
 private:
     string fullName;
     int age;
-    int salery;
+    int salary;
 public:
     person(){
         fullName="";
         age=1;
-        salery=100;
+        salary=100;
     }
-    person(string pfName,int pAge, int pSalery){
+    person(string pfName,int pAge, int psalary){
         fullName=pfName;
         age=pAge;
-        salery=pSalery;
+        salary=psalary;
     }
-    int getSalery(){
-        return salery;
+    int getsalary(){
+        return salary;
     }
     person operator+(person aPerson){
         
         person sample;
-        sample.salery = salery+aPerson.salery;
+        sample.salary = salary+aPerson.salary;
         return sample;
     }
     
@@ -34,7 +34,7 @@ public:
 };
 ostream& operator<<(person &printable, ostream& out){
     
-    out<<printable.fullName<<" "<<printable.age<<" "<<printable.salery;
+    out<<printable.fullName<<" "<<printable.age<<" "<<printable.salary;
     return out;
 }
 
@@ -46,7 +46,8 @@ int main(){
     person kirubel;
     dinaol = kirubel +dinaol;
     
-    cout<<dinaol.getSalery() << endl;
+    
+    cout<<dinaol.getsalary() << endl;
     cout<<"Dinaol"<<endl;
     
     
