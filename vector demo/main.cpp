@@ -29,7 +29,7 @@ public:
         return sample;
     }
     
-    friend ostream &operator<<(person &printable, ostream& out);
+    friend ostream& operator<<(person &printable, ostream& out);
     
 };
 ostream& operator<<(person &printable, ostream& out){
@@ -50,7 +50,7 @@ int main(){
     cout<<dinaol.getsalary() << endl;
     cout<<"Dinaol"<<endl;
     
-    
+    return 0;
 }
 
 
